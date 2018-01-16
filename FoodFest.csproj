@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D2B7F61C-B836-4368-81BE-8404E3810C83}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FoodFest</RootNamespace>
+    <AssemblyName>FoodFest</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About_us.aspx" />
+    <Content Include="AddFoodItem.aspx" />
+    <Content Include="Add_restaurant.aspx" />
+    <Content Include="Admin.aspx" />
+    <Content Include="AdminCheckOrder.aspx" />
+    <Content Include="AdminRestControl.aspx" />
+    <Content Include="AdminUserList.aspx" />
+    <Content Include="AdminViewAllRestaurants.aspx" />
+    <Content Include="All_restaurants.aspx" />
+    <Content Include="BFC.aspx" />
+    <Content Include="Contact_us.aspx" />
+    <Content Include="Dummy.aspx" />
+    <Content Include="EditFoodItem.aspx" />
+    <Content Include="EditRestaurant.aspx" />
+    <Content Include="emniTest.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\10.jpg" />
+    <Content Include="images\11.jpg" />
+    <Content Include="images\1150821_586242418093167_583617881_n.jpg" />
+    <Content Include="images\12.jpg" />
+    <Content Include="images\13.jpg" />
+    <Content Include="images\1396186463_1365422452.jpg" />
+    <Content Include="images\14.jpg" />
+    <Content Include="images\15.jpg" />
+    <Content Include="images\16.jpg" />
+    <Content Include="images\17.jpg" />
+    <Content Include="images\18.jpg" />
+    <Content Include="images\19.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\20.jpg" />
+    <Content Include="images\21.jpg" />
+    <Content Include="images\22.jpg" />
+    <Content Include="images\23.jpg" />
+    <Content Include="images\24.jpg" />
+    <Content Include="images\25.jpg" />
+    <Content Include="images\26.jpg" />
+    <Content Include="images\27.jpg" />
+    <Content Include="images\28.jpg" />
+    <Content Include="images\29.jpeg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\30.jpg" />
+    <Content Include="images\31.jpg" />
+    <Content Include="images\32.jpg" />
+    <Content Include="images\33.jpg" />
+    <Content Include="images\34.jpg" />
+    <Content Include="images\35.png" />
+    <Content Include="images\36.jpg" />
+    <Content Include="images\37.jpg" />
+    <Content Include="images\38.jpg" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="images\6.jpg" />
+    <Content Include="images\7.jpg" />
+    <Content Include="images\8.jpg" />
+    <Content Include="images\9.jpg" />
+    <Content Include="images\admin.jpg" />
+    <Content Include="images\all_food.jpg" />
+    <Content Include="images\american_burger.jpg" />
+    <Content Include="images\Anurag.jpg" />
+    <Content Include="images\Anurag.png" />
+    <Content Include="images\AW.jpg" />
+    <Content Include="images\barbeque.jpg" />
+    <Content Include="images\baristalavazza.jpg" />
+    <Content Include="images\bfc.jpg" />
+    <Content Include="images\bg-body.gif" />
+    <Content Include="images\bg-menu.jpg" />
+    <Content Include="images\bg-menu2.jpg" />
+    <Content Include="images\bg-menu3.jpg" />
+    <Content Include="images\bg-menu4.jpg" />
+    <Content Include="images\boomers.jpg" />
+    <Content Include="images\BURGER-N-BOOST.jpg" />
+    <Content Include="images\buttons.gif" />
+    <Content Include="images\callout.jpg" />
+    <Content Include="images\call_us.jpg" />
+    <Content Include="images\cash_on_delivery_1.jpg" />
+    <Content Include="images\cfc.jpg" />
+    <Content Include="images\Chilis.jpg" />
+    <Content Include="images\Chillies.jpg" />
+    <Content Include="images\custom_d5229b25305a25109e20f95701d510a07c06dfed.jpg" />
+    <Content Include="images\delivery.jpg" />
+    <Content Include="images\DosaExpress.jpg" />
+    <Content Include="images\Fakruddin.jpg" />
+    <Content Include="images\FireonIce.jpg" />
+    <Content Include="images\floor6.jpg" />
+    <Content Include="images\food-menu.jpg" />
+    <Content Include="images\food.jpg" />
+    <Content Include="images\Friends.jpg" />
+    <Content Include="images\grill.jpg" />
+    <Content Include="images\HajirBiriyani.jpg" />
+    <Content Include="images\howTo.jpg" />
+    <Content Include="images\images.jpg" />
+    <Content Include="images\images3.jpg" />
+    <Content Include="images\Istanbul.jpg" />
+    <Content Include="images\KFC_LOGO.jpg" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\logo2.jpg" />
+    <Content Include="images\mypic.png" />
+    <Content Include="images\NannaBiriyani.jpg" />
+    <Content Include="images\Our-Logo.jpg" />
+    <Content Include="images\Pizzainn.jpg" />
+    <Content Include="images\Pizza_Hut_logo.jpg" />
+    <Content Include="images\Prince.jpg" />
+    <Content Include="images\Shad-Tehari-Ghar3.jpg" />
+    <Content Include="images\ss.jpg" />
+    <Content Include="images\Thirty3.jpg" />
+    <Content Include="images\waiter.jpg" />
+    <Content Include="images\Welcome_admin.jpg" />
+    <Content Include="Login_page.aspx" />
+    <Content Include="MyOldOrder.aspx" />
+    <Content Include="MyOrders.aspx" />
+    <Content Include="OrdersNew.aspx" />
+    <Content Include="OrderViewAdmin.aspx" />
+    <Content Include="PicTest.aspx" />
+    <Content Include="Restaurant.aspx" />
+    <Content Include="mystyle.css" />
+    <Content Include="Register.aspx" />
+    <Content Include="Restaurant_admin.aspx" />
+    <Content Include="Review.aspx" />
+    <Content Include="TestAlert.aspx" />
+    <Content Include="UpgradeUserLevel.aspx" />
+    <Content Include="UploadedLogos\american_burger.jpg" />
+    <Content Include="UploadedLogos\bfc.jpg" />
+    <Content Include="UserProfile.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About_us.aspx.cs">
+      <DependentUpon>About_us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About_us.aspx.designer.cs">
+      <DependentUpon>About_us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddFoodItem.aspx.cs">
+      <DependentUpon>AddFoodItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddFoodItem.aspx.designer.cs">
+      <DependentUpon>AddFoodItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Add_restaurant.aspx.cs">
+      <DependentUpon>Add_restaurant.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add_restaurant.aspx.designer.cs">
+      <DependentUpon>Add_restaurant.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminCheckOrder.aspx.cs">
+      <DependentUpon>AdminCheckOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminCheckOrder.aspx.designer.cs">
+      <DependentUpon>AdminCheckOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRestControl.aspx.cs">
+      <DependentUpon>AdminRestControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminRestControl.aspx.designer.cs">
+      <DependentUpon>AdminRestControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUserList.aspx.cs">
+      <DependentUpon>AdminUserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminUserList.aspx.designer.cs">
+      <DependentUpon>AdminUserList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewAllRestaurants.aspx.cs">
+      <DependentUpon>AdminViewAllRestaurants.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminViewAllRestaurants.aspx.designer.cs">
+      <DependentUpon>AdminViewAllRestaurants.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="All_restaurants.aspx.cs">
+      <DependentUpon>All_restaurants.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="All_restaurants.aspx.designer.cs">
+      <DependentUpon>All_restaurants.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BFC.aspx.cs">
+      <DependentUpon>BFC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BFC.aspx.designer.cs">
+      <DependentUpon>BFC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckStatus.cs" />
+    <Compile Include="Contact_us.aspx.cs">
+      <DependentUpon>Contact_us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact_us.aspx.designer.cs">
+      <DependentUpon>Contact_us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnect.cs" />
+    <Compile Include="Dummy.aspx.cs">
+      <DependentUpon>Dummy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dummy.aspx.designer.cs">
+      <DependentUpon>Dummy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditFoodItem.aspx.cs">
+      <DependentUpon>EditFoodItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditFoodItem.aspx.designer.cs">
+      <DependentUpon>EditFoodItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditRestaurant.aspx.cs">
+      <DependentUpon>EditRestaurant.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditRestaurant.aspx.designer.cs">
+      <DependentUpon>EditRestaurant.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="emniTest.aspx.cs">
+      <DependentUpon>emniTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="emniTest.aspx.designer.cs">
+      <DependentUpon>emniTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Food.cs" />
+    <Compile Include="foodfest.Master.cs">
+      <DependentUpon>foodfest.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="foodfest.Master.designer.cs">
+      <DependentUpon>foodfest.Master</DependentUpon>
+    </Compile>
+    <Compile Include="FoodSelectDB.cs" />
+    <Compile Include="FoodSelectDB2.cs" />
+    <Compile Include="HandlerFoodImg.ashx.cs">
+      <DependentUpon>HandlerFoodImg.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="HandlerImg.ashx.cs">
+      <DependentUpon>HandlerImg.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login_page.aspx.cs">
+      <DependentUpon>Login_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login_page.aspx.designer.cs">
+      <DependentUpon>Login_page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyOldOrder.aspx.cs">
+      <DependentUpon>MyOldOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyOldOrder.aspx.designer.cs">
+      <DependentUpon>MyOldOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyOrders.aspx.cs">
+      <DependentUpon>MyOrders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyOrders.aspx.designer.cs">
+      <DependentUpon>MyOrders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs" />
+    <Compile Include="OrdersNew.aspx.cs">
+      <DependentUpon>OrdersNew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrdersNew.aspx.designer.cs">
+      <DependentUpon>OrdersNew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderViewAdmin.aspx.cs">
+      <DependentUpon>OrderViewAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderViewAdmin.aspx.designer.cs">
+      <DependentUpon>OrderViewAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PicTest.aspx.cs">
+      <DependentUpon>PicTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PicTest.aspx.designer.cs">
+      <DependentUpon>PicTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restaurant.aspx.cs">
+      <DependentUpon>Restaurant.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restaurant.aspx.designer.cs">
+      <DependentUpon>Restaurant.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FoodFest_admin.Master.cs">
+      <DependentUpon>FoodFest_admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FoodFest_admin.Master.designer.cs">
+      <DependentUpon>FoodFest_admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Restaurant.cs" />
+    <Compile Include="Restaurant_admin.aspx.cs">
+      <DependentUpon>Restaurant_admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restaurant_admin.aspx.designer.cs">
+      <DependentUpon>Restaurant_admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Review.aspx.cs">
+      <DependentUpon>Review.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Review.aspx.designer.cs">
+      <DependentUpon>Review.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestAlert.aspx.cs">
+      <DependentUpon>TestAlert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestAlert.aspx.designer.cs">
+      <DependentUpon>TestAlert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpgradeUserLevel.aspx.cs">
+      <DependentUpon>UpgradeUserLevel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpgradeUserLevel.aspx.designer.cs">
+      <DependentUpon>UpgradeUserLevel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs" />
+    <Compile Include="UserProfile.aspx.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserProfile.aspx.designer.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="foodfest.Master" />
+    <Content Include="FoodFest_admin.Master" />
+    <Content Include="HandlerImg.ashx" />
+    <Content Include="HandlerFoodImg.ashx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1651/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
